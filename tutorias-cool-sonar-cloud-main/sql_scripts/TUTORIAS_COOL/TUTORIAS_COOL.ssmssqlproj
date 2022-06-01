@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TUTORIAS_COOL">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local)\:user2">
+          <Created>2021-10-09T17:11:16.0585724-06:00</Created>
+          <Type>SQL</Type>
+          <Server>(local)\</Server>
+          <UserName>user2</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="0.tcp.ngrok.io,10990:jodaut">
+          <Created>2021-10-21T09:49:10.347273-06:00</Created>
+          <Type>SQL</Type>
+          <Server>0.tcp.ngrok.io,10990</Server>
+          <UserName>jodaut</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="8.tcp.ngrok.io,17964:jodaut">
+          <Created>2021-10-13T18:50:10.6966273-06:00</Created>
+          <Type>SQL</Type>
+          <Server>8.tcp.ngrok.io,17964</Server>
+          <UserName>jodaut</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="CREATION.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:user2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>user2</AssociatedConnUserName>
+          <FullPath>CREATION.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CURSOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:user2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>user2</AssociatedConnUserName>
+          <FullPath>CURSOS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DROP ALL TABLES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:8.tcp.ngrok.io,17964:False:jodaut</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>8.tcp.ngrok.io,17964</AssociatedConnSrvName>
+          <AssociatedConnUserName>jodaut</AssociatedConnUserName>
+          <FullPath>DROP ALL TABLES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="existe.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:user2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>user2</AssociatedConnUserName>
+          <FullPath>existe.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GET_TUTORIA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:0.tcp.ngrok.io,10990:False:jodaut</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>0.tcp.ngrok.io,10990</AssociatedConnSrvName>
+          <AssociatedConnUserName>jodaut</AssociatedConnUserName>
+          <FullPath>GET_TUTORIA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="GetAvailableCourses.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:user2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>user2</AssociatedConnUserName>
+          <FullPath>GetAvailableCourses.sql</FullPath>
+        </FileNode>
+        <FileNode Name="getTutor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:user2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>user2</AssociatedConnUserName>
+          <FullPath>getTutor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="getTutorando.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:user2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>user2</AssociatedConnUserName>
+          <FullPath>getTutorando.sql</FullPath>
+        </FileNode>
+        <FileNode Name="INSERT DATA.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:0.tcp.ngrok.io,10990:False:jodaut</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>0.tcp.ngrok.io,10990</AssociatedConnSrvName>
+          <AssociatedConnUserName>jodaut</AssociatedConnUserName>
+          <FullPath>INSERT DATA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertarTutor.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:user2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>user2</AssociatedConnUserName>
+          <FullPath>InsertarTutor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertarTutorando.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:user2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>user2</AssociatedConnUserName>
+          <FullPath>InsertarTutorando.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertarTutorCurso.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:user2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>user2</AssociatedConnUserName>
+          <FullPath>InsertarTutorCurso.sql</FullPath>
+        </FileNode>
+        <FileNode Name="InsertDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\:False:user2</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\</AssociatedConnSrvName>
+          <AssociatedConnUserName>user2</AssociatedConnUserName>
+          <FullPath>InsertDate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="pruebas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:0.tcp.ngrok.io,10990:False:jodaut</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>0.tcp.ngrok.io,10990</AssociatedConnSrvName>
+          <AssociatedConnUserName>jodaut</AssociatedConnUserName>
+          <FullPath>pruebas.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

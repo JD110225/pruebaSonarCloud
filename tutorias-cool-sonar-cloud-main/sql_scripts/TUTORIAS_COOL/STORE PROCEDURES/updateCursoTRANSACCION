@@ -1,0 +1,15 @@
+ALTER PROCEDURE updateCurso @cursoId varchar(255), @newName varchar(255),@sigla varchar(255), @descripcion varchar(255)
+AS
+	BEGIN TRANSACTION
+	update curso set nombre=@newName where id=@cursoId
+	update curso set descripcion=@descripcion where id=@cursoId
+	if @sigla=''
+		begin
+			print 'Sigla vacia, ROLLBACKK'
+			ROLLBACK
+		end
+	else
+		begin
+			update curso set sigla=@sigla where id=@cursoId
+			COMMIT
+		end
